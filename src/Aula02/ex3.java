@@ -1,4 +1,4 @@
-package POO.src.Aula02;
+package Aula02;
 
 import static java.lang.System.*;
 

@@ -1,4 +1,4 @@
-package POO.src.Aula01.aula01_code;
+package Aula01.aula01_code;
 
 public class StringExample {
 	public static void main(String[] args) {

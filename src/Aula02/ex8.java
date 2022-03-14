@@ -1,4 +1,4 @@
-package POO.src.Aula02;
+package Aula02;
 
 import java.util.Scanner;
 import java.lang.Math;

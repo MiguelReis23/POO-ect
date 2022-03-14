@@ -1,4 +1,4 @@
-package POO.src.Aula01.aula01_code;
+package Aula01.aula01_code;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;

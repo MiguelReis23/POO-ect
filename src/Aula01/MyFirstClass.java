@@ -1,4 +1,4 @@
-package POO.src.Aula01;
+package Aula01;
 public class MyFirstClass {
 
 	public static void main(String[] args) {
