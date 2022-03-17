@@ -7,9 +7,7 @@ import java.util.Scanner;
 public class ex3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(in);
-        double M = 0;
-        double Ti = 0;
-        double Tf = 0;
+        double M,Ti,Tf;
         out.print("Water quantity(Kg): ");
         if (!input.hasNextDouble())
             System.err.println("Erro: Valor inválido!");

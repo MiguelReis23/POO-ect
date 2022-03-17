@@ -6,13 +6,7 @@ import java.util.Scanner;
 
 public class ex7 {
     public static void main(String[] args) {
-        double p1x = 0;
-        double p1y = 0;
-        double p2x = 0;
-        double p2y = 0;
-        double vx = 0;
-        double vy = 0;
-        double dist = 0;
+        double p1x, p1y, p2x, p2y, vx, vy, dist;
         Scanner input = new Scanner(in);
 
         out.print("P1 (x y): ");

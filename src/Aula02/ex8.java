@@ -7,10 +7,7 @@ import static java.lang.System.*;
 public class ex8 {
     public static void main(String[] args) {
         Scanner input = new Scanner(in);
-        double A = 0;
-        double B = 0;
-        double C = 0;
-        double alpha = 0;
+        double A,B,C,alpha;
 
         out.print("Cateto A: ");
         A = input.nextDouble();
