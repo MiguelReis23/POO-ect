@@ -35,9 +35,11 @@ public class ex1 {
         } while (NT < 0 || NT > 20);
 
         double NF = Math.round(0.4 * NP + 0.6 * NT);
-
-        System.out.println(NF);
-
+        if (NF <= 7.0) {
+            System.out.println(66);
+        } else {
+            System.out.println(NF);
+        }
         input.close();
     }
 }
