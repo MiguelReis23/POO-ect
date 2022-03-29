@@ -22,12 +22,20 @@ public class ex1 {
     }
 
     public static void LastChar(String texto) {
-        System.out.println(texto.charAt(texto.length() - 1));// Ultimo caracter
+        if(texto.length()>0){
+            System.out.println(texto.charAt(texto.length() - 1));// Ultimo caracter
+        }else{
+            System.out.println("None");
+        }
+        
     }
 
     public static void First3char(String texto) {
-
+        if(texto.length()>3){
         System.out.println(texto.substring(0, 3));// 3 primeiros caracteres
+    }else{
+        System.out.println("O texto não tem 3 caracteres");
+    }
     }
 
     public static void NoSpacing(String texto) {
