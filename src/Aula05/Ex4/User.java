@@ -33,8 +33,8 @@ public class User {
         return Nmec;
     }
 
-    public void setNmec(int nmec) {
-        Nmec = nmec;
+    public void setNmec(int Nmec) {
+        this.Nmec = Nmec;
     }
 
     public ArrayList<Integer> getBooks() {

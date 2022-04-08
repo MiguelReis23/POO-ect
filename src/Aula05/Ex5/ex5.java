@@ -9,10 +9,11 @@ public class ex5 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        Book catalog[] = new Book[100];
-        User users[] = new User[100];
+        Book catalog[] = new Book[10];
+        User users[] = new User[100000];
         int op;
-        int Nusers = 0, Nbooks = 0;
+        int Nusers = 0;
+        int Nbooks = 0;
 
         do {
 
@@ -37,7 +38,6 @@ public class ex5 {
                     System.out.print("Introduza o curso: ");
                     String course = sc.next();
                     users[Nusers++] = new User(name, Nmec, course);
-
                     break;
 
                 case 2:
