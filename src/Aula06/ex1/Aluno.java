@@ -36,7 +36,7 @@ public class Aluno extends Pessoa {
 
     @Override
     public String toString() {
-        return  " nMec: " + nmec + "; Data de Inscrição: " + dataInsc+ "}";
+        return  " nMec: " + nmec + "; Data de Inscriçao: " + dataInsc+ "}";
     }
 
 

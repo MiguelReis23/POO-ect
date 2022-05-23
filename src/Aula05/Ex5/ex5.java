@@ -54,7 +54,7 @@ public class ex5 {
                         i++;
                     }
                     if (!found)
-                        System.out.println("Nº Mecanografico não encontrado");
+                        System.out.println("Nº Mecanografico nao encontrado");
                     break;
 
                 case 3:
@@ -122,10 +122,10 @@ public class ex5 {
 
                     if (user2 != null && book2 != null) {
                         if (!book2.isLoaned()) {
-                            System.out.println("Livro não emprestado.");
+                            System.out.println("Livro nao emprestado.");
                         } else {
                             if (!user2.hasbook(book2.getId())) {
-                                System.out.println("Livro não emprestado ao utilizador.");
+                                System.out.println("Livro nao emprestado ao utilizador.");
                             } else {
                                 user2.removebook(book2.getId());
                                 book2.setIsLoaned(false);

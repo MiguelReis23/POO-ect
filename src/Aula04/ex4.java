@@ -7,7 +7,8 @@ public class ex4 {
         /*Escreva um programa que lê do teclado uma data composta pelo mês, pelo ano, e ainda pelo
 dia da semana em que começa esse mês (1 = Segunda, 2 = Terça, 3 = Quarta, 4 = Quinta, 5
 = Sexta, 6 = Sábado, 7 = Domingo) e que desenha no monitor o calendário desse mês. Implemente a funcionalidade pretendida com três funções:
-leitura de valores, cálculo de dias no mês e impressão de resultados.
+leitura de valores, cálculo de dias no mês e impressa
+o de resultados.
     
 February 2019
 Su Mo Tu We Th Fr Sa

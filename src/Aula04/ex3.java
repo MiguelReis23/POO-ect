@@ -11,7 +11,7 @@ public class ex3 {
         Escreva um programa que leia do teclado uma frase e que apresente o seu
         acrónimo.
          */
-        //Se a palavra tiver menos de 3 letras não deve ser considerada
+        //Se a palavra tiver menos de 3 letras nao deve ser considerada
 
         String[] words = text.split(" ");
         String acronym = "";

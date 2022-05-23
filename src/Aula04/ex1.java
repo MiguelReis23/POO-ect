@@ -34,7 +34,7 @@ public class ex1 {
         if(texto.length()>3){
         System.out.println(texto.substring(0, 3));// 3 primeiros caracteres
     }else{
-        System.out.println("O texto não tem 3 caracteres");
+        System.out.println("O texto nao tem 3 caracteres");
     }
     }
 
