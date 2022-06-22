@@ -14,6 +14,11 @@ public class ex1 {
         
         
         // Scanner input2 = new Scanner(new File("src/Aula12/ex1/text.txt"));  ficheiro de teste
+//         String currentPath = new java.io.File(".").getCanonicalPath();
+//  System.out.println("Current dir:" + currentPath);
+
+//  String currentDir = System.getProperty("user.dir");
+//  System.out.println("Current dir using System:" + currentDir);
         
         
         
